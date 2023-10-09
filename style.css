@@ -1,0 +1,29 @@
+body {
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+}
+
+main div {
+    border: groove orange 8px;
+    padding: 20px;
+    background-color: sienna;
+    text-align: center;
+    box-shadow: 5px 5px 5px black;
+    font-family: cursive;
+
+}
+
+main div p {
+    border-bottom: 2px solid black;
+    padding: 2px;
+    box-shadow: 4px 4px 8px black;
+    transition: 1s;
+}
+
+main div p:hover {
+    scale: 110%;
+    border-bottom: 2px solid black;
+    padding: 2px;
+    box-shadow: 8px 8px 16px black;
+}
